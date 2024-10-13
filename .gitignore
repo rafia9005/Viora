@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.venv/*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+data/raw/*
+data/processed/*
+data/interim/*
+data/external/*
+
+# Model files
+results/models/
+results/metrics/
+results/visualizations/
+results/logs/
+
+# Cache
+.cache/
+*.h5          # Model files
+*.ckpt        # Checkpoint files
+*.pth         # PyTorch model files
+
+# Configuration files
+config/*.yaml
+config/*.json
+
+# Editor-specific files
+*.swp         # Vim swap files
+*.swo         # Vim swap files
+*.tmp         # Temporary files
+*.log         # Log files
+
+# OS-specific files
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker files
+**/Dockerfile
+**/docker-compose.yml
+
+# Coverage reports
+.coverage
+htmlcov/
+coverage.xml
+
+# Distribution files
+build/
+dist/
+*.egg-info/
